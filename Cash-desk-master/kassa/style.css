@@ -1,0 +1,129 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-f {
+  background-color: #ED2A24;
+}
+
+.container-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top .top-row {
+  height: 500px;
+}
+
+.top .top-row .top-r {
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  background-size: 80% 100%;
+}
+
+.top .top-row .top-l {
+  background: #ED2A24;
+}
+
+.top .top-row .top-l .left .left-r {
+  margin-top: 100px;
+}
+
+.top .top-row .top-l .left .left-r button {
+  width: 210px;
+  height: 100px;
+  border: gold solid 2px;
+  border-radius: 5px;
+  margin: 2.5px;
+  background: gold;
+  color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.top .top-row .top-l .left .left-r button:hover {
+  background: black;
+  color: gold;
+}
+
+.bottom {
+  background: #ED2A24;
+  height: 150px;
+}
+
+.bottom .bottom-r .bottom-col2 #reset {
+  background: gold;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.bottom .bottom-r .bottom-col2 #clac {
+  background: gold;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 372px;
+}
+
+.bottom .bottom-r .bottom-col2 #backstep {
+  background: gold;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  visibility: none;
+}
+
+.bottom .bottom-r .bottom-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bottom .bottom-r .bottom-col P {
+  font-size: 30px;
+  padding-top: 60px;
+  padding-left: 120px;
+  color: white;
+}
+
+.bottom .bottom-r .bottom-col .cost {
+  margin-top: 35px;
+  padding-top: 30px;
+  width: 100px;
+  height: 100px;
+  background: gold;
+  border: 5px solid black;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.siyahi {
+  margin-top: 10px;
+  background: white;
+  border: 2px solid #ED2A24;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 30px;
+  background: gold;
+}
+
+.siyahi span {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KASSA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-fluid container-f">
+        <div class="container container-img">
+                <img src="head.jpg" alt="">
+        </div>
+    </div>
+    <div class="container-fluid top">
+        <div class="row top-row">
+            <div class="col-6 top-r">
+                <div class="container-fluid">
+                    <div id="list" class="row ">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 top-l">
+                <div class="container-fluid left">
+                    <div class="row left-r">
+                        <button onclick="addCost1(menuName1,menu1)" id="btn1">Doner Toyuq <br> 2 AZN</button>
+                        <button onclick="addCost1(menuName2,menu2)" id="btn2">Doner Mal <br> 3 AZN</button>
+                        <button onclick="addCost1(menuName3,menu3)" id="btn3">Doner Limuzin <br> 4 AZN</button>
+                        <button onclick="addCost1(menuName4,menu4)" id="btn4">Doner Lavas <br> 2,5 AZN</button>
+                        <button onclick="addCost1(menuName5,menu5)" id="btn5">Ayran <br> 0,5 AZN</button>
+                        <button onclick="addCost1(menuName6,menu6)" id="btn6">Cola <br> 1 AZN</button>
+                        <button onclick="addCost1(menuName7,menu7)" id="btn7">Fanta <br> 1 AZN</button>
+                        <button onclick="addCost1(menuName8,menu8)" id="btn8">Sprite <br> 1 AZN</button>
+                        <button onclick="addCost1(menuName9,menu9)" id="btn9">Meyve Suyu <br> 1,5 AZN</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bottom">
+        <div class="row bottom-r">
+            <div  class="col-6 bottom-col">
+                <p>Odenilecek Mebleq :</p>
+
+                <div id="cost" class="cost">
+                    0 AZN
+                </div>
+            </div>
+            <div class="col-6 bottom-col2">
+                <button id="reset"> Yeni Sifaris</button>
+                <button id="backstep">Son Sifarisi Sil</button>
+                <input type="text" id="Musteri" value="" placeholder="Musteri odenisi">
+                <input type="text" id="qaliq" value="" placeholder="QAYTARMALI">
+                <button id="clac">Hesab</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
